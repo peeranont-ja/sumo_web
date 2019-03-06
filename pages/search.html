@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="th">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template-->
+    <link href="../css/search.css" rel="stylesheet">
+
+    <title>Hello, world!</title>
+</head>
+
+<body class="bg-color">
+    <nav class="navbar static-top shadow-sm nav-color pt-4">
+        <div class="container-fluid mb-5">
+            <div class="col-md-5 col-6">
+                <img src="../img/ic_sumo.png" class="img-fluid" style="max-width:90px;">
+            </div>
+
+            <div class="col-md-7 col-6">
+                <button type="button" class="btn btn-logout fix-right"><i class="fa fa-sign-out"></i>
+                    ออกจากระบบ</button>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="col-sm-5 col-md-3 mb-3">
+                <div class="input-group">
+                    <select class="custom-select">
+                        <option value="1" selected>เลขบัตรประชาชน</option>
+                        <option value="2">เลขที่บัญชี</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-sm-7 col-md-5 mb-3">
+                <form class="navbar-search">
+                    <div class="input-group">
+                        <input type="text" class="form-control bg-light" placeholder="กรุณกรอกข้อมูลที่ต้องการค้นหา...">
+                        <div class="input-group-append">
+                            <button class="btn color-primary btn-search" type="button">ค้นหา</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <!-- <div class="row mt-5">
+            <div class="mx-auto">
+                <h2 style="color:#757575;">ไม่พบประวัติลูกค้าในธนาคารออมสิน</h2>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="mx-auto text-center">
+                <h2 style="color:#757575;">"ไม่พบข้อมูลประวัติรายการผ่าน SUMO Instant application”</h2>
+                <h2 style="color:#757575;"> โปรดติดต่อธนาคารออมสินเจ้าของข้อมูล
+                    สาขา 1 -สำนักงานใหญ่ พหลโยธิน </h42>
+            </div>
+        </div> -->
+
+        <div class="card shadow-sm mt-5">
+            <div class="card-header nav-color">
+                <h4>ข้อมูลลูกค้า</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="table-responsive">
+                            <table class="table table-borderless">
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">ชื่อลูกค้า</th>
+                                        <td>ธีรนนท์ จามรองาน</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">เลขบัตรประชาชน</th>
+                                        <td>1-1014-00364-20-2</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">สาขาเจ้าของข้อมูล</th>
+                                        <td>สาขาพหลโยธิน</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <p class="text-red">หมายเหตุ : พบประวัติลูกค้าเพิ่มเติม ผ่าน
+                                                SUMO Sale & Service <br>กรุณาติดต่อ Call Center</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-sm-7 pt-2">
+                        <table class="table table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <button class="btn color-primary btn-download fix-right" type="button" style="width:22%;">
+                                            <i class="fa fa-file-pdf-o mr-2"></i></span>
+                                            ดาวน์โหลดเอกสาร
+                                        </button>
+                                    </td>
+                                </tr>
+                                <!-- <tr>
+                                    <td>
+                                        <button class="btn btn-info fix-right" type="button" disabled style="width:22%;">
+                                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            กำลังดำเนินการ...
+                                        </button>
+                                    </td>
+                                </tr> -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
