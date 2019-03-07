@@ -37,13 +37,22 @@
           font-size: 3.5rem;
         }
       }
+
+      div {
+            border-style: solid;
+            border-width: 0.1px;
+            border-color: black;
+        }
     </style>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <nav class="navbar fixed-top">
     <div class="container-fluid">
-      <img src="../img/ic_sumo.png" class="img-fluid" style="max-width:120px;">
+        <div class="col-md-5 col-6">
+            <img src="../img/ic_sumo.png" class="img-fluid" style="max-width:120px;">
+        </div>
+        <div class="col"></div>
     </div>
   </nav>
 
@@ -64,7 +73,7 @@
     </form>
   </div>
 
-  <footer class="py-3 fixed-bottom">
+  <footer class="py-3">
     <div class="container-fluid">
       <p class="m-0 float-right text-white">SUMO Call Center 02-119-0011</p>
     </div>
