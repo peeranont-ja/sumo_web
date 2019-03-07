@@ -14,18 +14,44 @@
     <link href="../css/search.css" rel="stylesheet">
 
     <title>Hello, world!</title>
+
+    <style>
+        .btn-primary,
+        .btn-primary.disabled,
+        .btn-primary:disabled,
+        .btn-primary:not(:disabled):not(.disabled):active,
+        .btn-primary:not(:disabled):not(.disabled).active,
+        .show>.btn-primary.dropdown-toggle {
+            color: #fff;
+            background-color: #FB427E;
+            border-color: #FB427E
+        }
+
+        .btn-primary:hover {
+            color: #fff;
+            background-color: #BB315E;
+            border-color: #BB315E
+        }
+
+        .btn-primary:focus,
+        .btn-primary.focus,
+        .btn-primary:not(:disabled):not(.disabled):active:focus,
+        .btn-primary:not(:disabled):not(.disabled).active:focus,
+        .show>.btn-primary.dropdown-toggle:focus {
+            box-shadow: 0 0 0 .2rem rgba(251, 66, 126, 0.5)
+        }
+    </style>
 </head>
 
 <body class="bg-color">
-    <nav class="navbar static-top shadow-sm nav-color pt-4">
+    <nav class="navbar shadow-sm nav-color">
         <div class="container-fluid mb-5">
             <div class="col-md-5 col-6">
-                <img src="../img/ic_sumo.png" class="img-fluid" style="max-width:90px;">
+                <img src="../img/ic_sumo.png" class="img-fluid" style="max-width:120px;">
             </div>
 
             <div class="col-md-7 col-6">
-                <button type="button" class="btn btn-logout fix-right"><i class="fa fa-sign-out"></i>
-                    ออกจากระบบ</button>
+                <a class="btn btn-large btn-primary float-right" href="index.html"><i class="fa fa-sign-out"></i> ออกจากระบบ</a>
             </div>
         </div>
 
@@ -125,8 +151,7 @@
             </div>
         </div>
     </div>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </body>
 
